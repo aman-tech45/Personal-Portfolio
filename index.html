@@ -1,0 +1,459 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0"> 
+    <title>My Portfolio</title> 
+    <link rel="stylesheet" 
+          href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="responsive.css"> 
+</head> 
+  
+<body> 
+    <!-- Navbar header section -->
+    <header class="header"> 
+        <nav class="navbar"> 
+            <div class="logo"> 
+                <h2 class="logo-heading">Aman Jha</h2> 
+            </div> 
+            <div class="hamburger" id="hamburger"> 
+                <i class="fas fa-bars hamburger-icon"></i> 
+                <i class="fas fa-times cross-icon"></i> 
+            </div> 
+            <div class="menu"> 
+                <ul class="menu-list"> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#home"> 
+                              Home 
+                          </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#portfolio"> 
+                              Portfolio 
+                          </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#about"> 
+                              About 
+                          </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#services"> 
+                              Services 
+                          </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#contact"> 
+                              Contact Me 
+                          </a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </nav> 
+    </header> 
+  
+    <!-- Main hero banner -->
+    <section id="home" class="hero"> 
+        <div class="intro"> 
+            <div class="headings"> 
+                <h2 class="greet-heading" style="color:rgb(244, 220, 220)">Hello, I'm</h2> 
+                <h1 class="my-heading" style="color: rgba(0, 7, 0, 0.975)"> Aman Jha</h1> 
+                <h4 class="sub-heading" style="color: rgba(249, 247, 247, 0.999);"> 
+                          A Software Engineer with a passion for ML &
+                              Web Development.
+                </h4> 
+            </div> 
+            <div class="intro-buttons"> 
+                <button class="btn common-btn">Hire Me</button> 
+                <button class="btn ghost-btn">Get Resume</button> 
+            </div> 
+        </div> 
+    </section> 
+  
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio"> 
+        <div class="portfolio-heading"> 
+            <h1 class="my-heading text-center">Featured Portfolio</h1> 
+        </div> 
+        <div class="portfolio-content"> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="images/ml model.jpeg" 
+                                 alt="ML model Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">ML Model</h3> 
+                        <p class="small-para blue-text">Development</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="images/web-development.jpeg" 
+                                 alt="Web Development Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Web Development 
+                          </h3> 
+                        <p class="small-para blue-text">Development</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="images/seo.jpg" alt="SEO Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">SEO</h3> 
+                        <p class="small-para blue-text">Optimization</p> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="images/content writng.jpeg" 
+                                 alt="Content Writting Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Content Writing 
+                          </h3> 
+                        <p class="small-para blue-text">Writing</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="images/wordpress.jpeg" 
+                                 alt="Wordpress Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              WordPress Dev 
+                          </h3> 
+                        <p class="small-para blue-text"> 
+                              Content Management System 
+                          </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="images/videoediting.jpeg" 
+                                 alt="Video Editing Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Video Editing 
+                          </h3> 
+                        <p class="small-para blue-text">Editing</p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+  
+   <!-- About Section -->
+<section id="about" class="about"> 
+    <div class="about-content"> 
+        <div class="about-text"> 
+            <h1 class="my-heading">About Me</h1> 
+            <p class="lead-para"> 
+                Welcome to my digital space! I'm Aman Jha, a dynamic Software Engineer with an unwavering passion for both Machine Learning and Web Development. I thrive on the excitement of transforming innovative ideas into functional, user-friendly applications.
+            </p>
+            <p>
+                In the vast realm of technology, I find my niche at the intersection of artificial intelligence and web solutions. My journey is fueled by a relentless curiosity and a commitment to staying ahead in the ever-evolving landscape of tech. Whether it's crafting elegant algorithms or designing seamless user interfaces, I revel in the artistry of code.
+            </p>
+            <p>    
+                Beyond the lines of code, I immerse myself in the realm of AI tools and video editing. 
+            </p>
+            <p>
+                Join me on this exhilarating journey where I blend technology, creativity, and a touch of magic. Let's innovate, build, and make an impact together.
+            </p>
+            <p>
+                Cheers to coding adventures and bringing ideas to life!
+            </p> 
+        </div>
+    </div>
+    <div class="about-image"> 
+        <img src="images/about me img.png" alt="About Image"> 
+    </div> 
+</section>
+ 
+  
+    <!-- Services Section -->
+    <section class="services" id="services"> 
+        <div class="services-heading"> 
+            <h1 class="my-heading text-center">My Services</h1> 
+        </div> 
+        <div class="services-content"> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-brain"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">ML Model Devlopment</h3>
+                        <p class="small-para"> 
+                            Machine Learning (ML) model development is the process of creating 
+                            algorithms that enable computers to learn from data and make predictions 
+                            or decisions autonomously. It begin with data collection & preprocessing, 
+                            it involves selecting relevant features, appropriate model, & training it 
+                            to recognize patterns in the provided dataset. it's rapid evolving field.it's growing rapidly.
+                        </p> 
+                        <p class="small-para"> 
+                            Machine Learning (ML) model development is the process of creating algorithms 
+                            that enable computers to learn from data and make predictions or decisions 
+                            autonomously. It begin with data collection & preprocessing, 
+                            it involves selecting relevant features, appropriate model, & training it
+                            to recognize patterns in the provided dataset.it's rapid evolving field.it's growing rapidly.
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-laptop-code"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Web Development 
+                          </h3> 
+                        <p class="small-para"> 
+                            Web development refers to the creating,  
+                              building, and maintaining 
+                            of websites. It includes aspects such as  
+                              web design, web publishing, 
+                            web programming, and database management.  
+                              It is the creation of an 
+                            application that works over the internet  
+                              i.e. websites. It involves tools like HTML, CSS, JavaScript, PHP, React, Django, Angular etc. It's a vast field and I'm still exploring it.
+                        </p> 
+                        <p class="small-para"> 
+                            Web development refers to the creating,  
+                              building, and maintaining 
+                            of websites. It includes aspects such as  
+                              web design, web publishing, 
+                            web programming, and database management.  
+                              It is the creation of an 
+                            application that works over the internet  
+                              i.e. websites. It involves tools like HTML, CSS, JavaScript, PHP, React, Django, Angular etc. It's a vast field and I'm still exploring it.
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-robot"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">AI-Prompt</h3> 
+                        <p class="small-para"> 
+                            An AI Prompt Engineer is a specialist focused on 
+                            creating and refining prompts used in artificial 
+                            intelligence systems.
+                            This role involves crafting prompts that elicit 
+                            specific responses from AI models. #prompt
+                            This role is at the intersection of language, technology,
+                            and user interaction, contributing to the development of 
+                            AI systems that effectively understand and respond to human input. 
+                        
+                        <p class="small-para"> 
+                            An AI Prompt Engineer is a specialist focused on 
+                            creating and refining prompts used in artificial 
+                            intelligence systems.
+                            This role involves crafting prompts that elicit 
+                            specific responses from AI models.#prompt
+                            This role is at the intersection of language, technology,
+                            and user interaction, contributing to the development of 
+                            AI systems that effectively understand and respond to human input.
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-quote-left"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Content Writting 
+                          </h3> 
+                        <p class="small-para"> 
+                            Web development refers to the creating,  
+                              building, and maintaining of websites.  
+                              It includes aspects such as web design,  
+                              web publishing, web programming, and  
+                              database management. It is the creation  
+                              of an application that works over the  
+                              internet i.e. websites. 
+                        </p> 
+                        <p class="small-para"> 
+                            Web development refers to the creating,  
+                              building, and maintaining of websites.  
+                              It includes aspects such as web design,  
+                              web publishing, web programming, and  
+                              database management. It is the creation of an 
+                            application that works over the internet i.e.  
+                              websites. 
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fab fa-wordpress-simple"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              WordPress Dev 
+                          </h3> 
+                        <p class="small-para"> 
+                            Web development refers to the creating,  
+                              building, and maintaining of websites.  
+                              It includes aspects such as web design,  
+                              web publishing, web programming, and  
+                              database management. It is the creation  
+                              of an application that works over the  
+                              internet i.e. websites. 
+                        </p> 
+                        <p class="small-para"> 
+                            Web development refers to the creating,  
+                              building, and maintaining 
+                            of websites. It includes aspects such as  
+                              web design, web publishing, 
+                            web programming, and database management.  
+                              It is the creation of an 
+                            application that works over the internet  
+                              i.e. websites. 
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-video"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Video Editing 
+                          </h3> 
+                        <p class="small-para"> 
+                            Web development refers to the creating,  
+                              building, and maintaining 
+                            of websites. It includes aspects such as  
+                              web design, web publishing, 
+                            web programming, and database management.  
+                              It is the creation of an 
+                            application that works over the internet  
+                              i.e. websites. 
+                        </p> 
+                        <p class="small-para"> 
+                            Web development refers to the creating,  
+                              building, and maintaining 
+                            of websites. It includes aspects such as  
+                              web design, web publishing, 
+                            web programming, and database management.  
+                              It is the creation of an 
+                            application that works over the internet  
+                              i.e. websites. 
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+  
+    <!-- Contact me section -->
+    <section class="contact" id="contact"> 
+        <div class="contact-heading"> 
+            <h1 class="my-heading text-center">Contact Me</h1> 
+        </div> 
+        <div class="contact-content"> 
+            <div class="contact-form-container"> 
+                <h1 class="greet-heading">Get In Touch</h1> 
+                <form class="contact-form"> 
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name"> 
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email"> 
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone"> 
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10"> 
+                      </textarea> 
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message"> 
+                </form> 
+            </div> 
+            <div class="contact-details"> 
+                <h1 class="greet-heading">My Contact Details</h1> 
+                <div class="details"> 
+                    <h5 class="contact-heading">EMAIL</h5> 
+                    <p class="contact-text">xyz@gmail.com</p> 
+                </div> 
+                <div class="details"> 
+                    <h5 class="contact-heading">PHONE</h5> 
+                    <p class="contact-text">+91 0123456789</p> 
+                </div> 
+                <div class="details"> 
+                    <h5 class="contact-heading">FAX</h5> 
+                    <p class="contact-text">+91 0123456789</p> 
+                </div> 
+                <div class="details"> 
+                    <h5 class="contact-heading">ADDRESS</h5> 
+                    <p class="contact-text">102,street no</p> 
+                    <p>Pleasant park</p> 
+                    <p>401000</p> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+  
+    <!-- Footer section -->
+    <footer class="footer"> 
+        <div class="footer-content text-center"> 
+            <h4> 
+                Copyright © 2023 All rights reserved | 
+            </h4> 
+            <div class="social-links"> 
+                <div class="footer-menu"> 
+                    <ul class="footer-menu-list"> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-facebook-f"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-twitter"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-github"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-linkedin-in"></i> 
+                            </a> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </div> 
+    </footer> 
+  
+    <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"> 
+      </script> 
+    <script src="script.js"></script> 
+</body> 
